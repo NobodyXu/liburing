@@ -2,6 +2,8 @@
 #ifndef LIB_URING_H
 #define LIB_URING_H
 
+#define _XOPEN_SOURCE 700 // For sigset_t
+
 #include <sys/socket.h>
 #include <sys/uio.h>
 #include <sys/stat.h>
